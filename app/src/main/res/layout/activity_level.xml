@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuuura87.minesweeper.LevelActivity">
+
+    <RadioGroup
+        android:id="@+id/radioLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <RadioButton
+            android:id="@+id/radioBtnEasy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/radio_easy" />
+
+        <RadioButton
+            android:id="@+id/radioBtnNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/radio_normal" />
+
+        <RadioButton
+            android:id="@+id/radioBtnExpert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_expert" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioLevel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:width="200dp"
+        android:text="@string/btn_start"/>
+
+</RelativeLayout>

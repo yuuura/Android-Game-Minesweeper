@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="radio_easy">Easy</string>
+    <string name="radio_normal">Normal</string>
+    <string name="radio_expert">Expert</string>
+    <string name="btn_start">Start</string>
+    <string name="_0">0</string>
+</resources>
