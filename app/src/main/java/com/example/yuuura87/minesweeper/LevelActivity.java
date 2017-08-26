@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.RadioGroup;
 import android.widget.Button;
-
 import com.google.gson.Gson;
 
 public class LevelActivity extends AppCompatActivity {
