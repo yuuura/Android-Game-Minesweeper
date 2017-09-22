@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tblRecords"
+    android:padding="2dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rowHeader"
+            android:background="#99cccc">
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/tblColName"
+                android:gravity="center"
+                android:text="@string/tbl_col_name" />
+
+            <TextView
+                android:id="@+id/tblColTime"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/tbl_col_time" />
+        </TableRow>
+<!--
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCheck"
+        android:text="@string/btn_check"/>
+-->
+</TableLayout>

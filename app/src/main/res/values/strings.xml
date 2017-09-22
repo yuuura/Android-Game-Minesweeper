@@ -5,4 +5,15 @@
     <string name="radio_expert">Expert</string>
     <string name="btn_start">Start</string>
     <string name="_0">0</string>
+    <string name="btn_easy">Easy</string>
+    <string name="btn_normal">Normal</string>
+    <string name="btn_expert">Expert</string>
+    <string name="tbl_col_name">Name</string>
+    <string name="tbl_col_time">Time</string>
+    <string name="txt_empty">empty</string>
+    <string name="btn_check">Check</string>
+    <string name="btn_records">Records</string>
+    <string name="btn_game_records">Records</string>
+    <string name="missing_google_maps_error_message">No google maps installed.</string>
+    <string name="map_target_description">map_target_description</string>
 </resources>

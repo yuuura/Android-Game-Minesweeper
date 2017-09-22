@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuuura87.minesweeper.RecordsActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/relativeLayout">
+
+        <Button
+            android:id="@+id/btnEasy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_easy"
+            android:layout_marginRight="3dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNormal"
+            android:text="@string/btn_normal"
+            android:layout_toEndOf="@+id/btnEasy"
+            android:layout_marginRight="3dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnExpert"
+            android:text="@string/btn_expert"
+            android:layout_toEndOf="@+id/btnNormal"/>
+
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/fragmentTable"
+        android:name="com.example.yuuura87.minesweeper.FragmentTable"
+        android:layout_width="330dp"
+        android:layout_height="214dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        tools:layout="@layout/fragment_table" />
+
+    <fragment
+        android:id="@+id/fragmentMap"
+        android:name="com.example.yuuura87.minesweeper.FragmentMap"
+        android:layout_width="330dp"
+        android:layout_height="215dp"
+        android:layout_below="@+id/fragmentTable"
+        android:layout_centerHorizontal="true"
+        tools:layout="@layout/fragment_map"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
